@@ -1,11 +1,10 @@
 "use client";
 
-import Image from "next/image";
-import Hero from "../components/Hero";
-import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import { FaHouseMedical } from "react-icons/fa6";
-import Grid from "@/components/Grid";
 import { navItems } from "@/data";
+
+import Hero from "../components/Hero";
+import Grid from "@/components/Grid";
+import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 const Home = () => {
   return (
